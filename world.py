@@ -33,8 +33,8 @@ def set_gold():
     gold.add((x,y))
 
 set_pits()
-set_gold()
 set_wumpus()
+set_gold()
 initial_location = (1,1)
 
 world = wumpus.WumpusWorld(blocks = blocks, gold = gold, wumpus = wum, pits = pits, initial_location = initial_location)
